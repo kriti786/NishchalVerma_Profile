@@ -331,7 +331,7 @@ font-size: 8rem;
   }
 
 }
-@media scree and(max-width:600px):
+@media screen and(max-width:600px):
 {
   .landing-text h1{
     font-size:2rem;
@@ -342,7 +342,9 @@ font-size: 8rem;
   .nav-link{
     font-size: 3.5rem;
   }
-
+  .about-container{
+    flex-direction: column;
+  }
   .profile-img{
     margin: 0 0 7rem 0;
   }
