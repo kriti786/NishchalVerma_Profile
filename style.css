@@ -293,7 +293,7 @@ background-color: black;
     background-size: cover;
   }
   .landing-text h1{
-font-size: 3rem;
+font-size: 2rem;
 }
   .landing-text h6{
 font-size: 1rem;
@@ -334,10 +334,10 @@ font-size: 8rem;
 @media screen and(max-width:600px):
 {
   .landing-text h1{
-    font-size:2rem;
+    font-size:1rem;
   }
   .landing-text h6{
-    font-size:1rem;
+    font-size:.5rem;
   }
   .nav-link{
     font-size: 3.5rem;
