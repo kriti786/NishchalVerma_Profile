@@ -305,10 +305,10 @@ font-size: 1rem;
     margin:2rem 0;
   }
   .nav-link{
-    font-size: 4.5rem;
+    font-size: 2rem;
   }
   .about-heading{
-font-size: 8rem;
+font-size: 5rem;
 
   }
   .section-heading h1{
@@ -324,10 +324,10 @@ font-size: 8rem;
     margin: 0 0 0 auto;
   }
   .timeline .date::before{
-    left:-20rem;
+    left:-10rem;
   }
   .timeline .date::after{
-    left:-5.9rem;
+    left:-2rem;
   }
 
 }
@@ -352,17 +352,17 @@ font-size: 8rem;
     flex-direction: column;
   }
   .portfolio-img{
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
   }
   .portfolio-description{
     margin: 0;
     order:2;
   }
   .timeline ul{
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
   .timeline .date::before{
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
   font{
     width: 100%;
