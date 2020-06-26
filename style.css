@@ -90,6 +90,10 @@ align-items: center;
 li{
 
 }
+.nav-bar1{
+  display: flex;
+  display: inline-block;
+}
 .nav-link{
   font-family: 'The Historia Demo',sans-serif;
   font-size: 1rem;
