@@ -1,0 +1,372 @@
+.{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 23px;
+  font-family: 'Roboto',sans-serif;
+  color: #eee;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background: url("images/15.jpg") no-repeat Center fixed;
+  background-size: cover;
+}
+a{
+  text-decoration: none;
+  color: #eee;
+}
+p{
+  font-size: 1.8 rem;
+  font-weight: 300;
+}
+img{
+  width: 350px;
+  height: 350px;
+}
+header{
+  width: 100%;
+  height: 100vh;
+}
+.container{
+  width:90%;
+  max-width:120rem;
+  height: 100%;
+  margin:0 auto;
+  position: relative;
+}
+.section-heading
+{
+  text-align: center;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+}
+.section-heading h1{
+  font-size: 2.5rem;
+  color: rgba(255,255,255,.3);
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 1rem;
+
+}
+ .section-heading h1::before,
+ .section-heading h1::after{
+   content: '';
+   position: absolute;
+   bottom: -.5rem;
+   left:50%;
+   transform: translateX(-50%);
+   background-color: rgba(255,255,255,0.75);
+
+ }
+ .section-heading h1::before{
+   width: 10rem;
+   height: 3px;
+   border-radius: .8rem;
+ }
+ .section-heading h1::after{
+   width: 1rem;
+   height: 1.5rem;
+   border-radius: 100%;
+   bottom: -1rem;
+ }
+.section-heading h6{
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.top-nav{
+  width: 100%;
+
+}
+.nav-list{
+  list-style: none;
+  width: 90%;
+flex-direction: column;
+align-items: center;
+}
+li{
+
+}
+.nav-link{
+  font-family: 'The Historia Demo',sans-serif;
+  font-size: 1rem;
+  padding: 0.2rem;
+}
+.nav-link:hover,
+.nav-link:focus{
+  background: linear-gradient(to top,#ffe838,#fd57bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-text{
+  position: absolute;
+  top:70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+z-index: 1;
+}
+.landing-text h1{
+  font-size: 4rem;
+  font-family:'Trattatello', fantasy;
+  background:linear-gradient(to top,#ffe838,#fd57bf);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  padding: 1rem;
+  user-select: none;
+}
+.landing-text h6{
+  font-size: 1.0rem;
+  font-weight: 300;
+}
+.about .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-heading{
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0;
+  margin-bottom: 6rem;
+}
+.about-heading h1{
+  font-size: 55px;
+  opacity: .5;
+}
+.about-heading h6{
+  font-size: 20px;
+  opacity: .5;
+}
+.profile-img{
+  flex:1;
+  margin-right: 3rem;
+}
+.about-details{
+  flex:2;
+}
+.portfolio-item{
+  display: flex;
+  align-items:
+  justify-content:center;
+  margin-bottom: 5rem;
+}
+.portfolio-item:last-child{
+  margin-bottom: 0;
+}
+.portfolio-description{
+   flex:1;
+}
+.portfolio-img{
+  flex:1;
+}
+.has-margin-right{
+  margin-right: .5rem;
+}
+.has-margin-left{
+  margin-right: .5rem;
+
+}
+.portfolio-description h1{
+  font-size: 1.5rem;
+  font-weight: 300;
+  opacity:.3;
+}
+.portfolio-description .cta{
+  display: inline-block;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color:#3883ff;
+}
+
+.timeline ul{
+  border-left: 4px solid #ffe838;
+  border-radius: .8rem;
+  background-color: rgba(0,0,0,0,0.5);
+  margin: 0 auto;
+  margin-left: 15rem;
+  position: relative;
+  padding: 5rem;
+  list-style: none;
+  text-align: left;
+  width: 70%;
+}
+.timeline h1{
+  font-size: 2rem;
+  font-transform:uppercase;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  opacity: .3;
+}
+.timeline .date{
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+.timeline .date:last-of-type{
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.timeline .date::before,
+.timeline .date::before{
+  position: absolute;
+  display: block;
+  top: 50%;
+  transform: translateY(-50);
+}
+.timeline .date::before{
+  content: attr(data-date);
+  margin-left: -19.5rem;
+  text-align: right;
+  min-width: 12rem;
+  font-size: 1.2rem;
+}
+.contact{
+  background-color: 221e3f;
+
+}
+form{
+  width: 70%;
+  margin: 0 auto;
+}
+form label{
+  font-size: 1.5rem;
+}
+input,textarea{
+  width:100%;
+  padding: 1rem;
+  margin-bottom: 5px;
+  border:none;
+  outline-color: #fd57bf;
+}
+input[type="submit"]{
+  width: initial;
+  background-color: black;
+  color: #eee;
+  padding: 1rem 2rem;
+  border-radius: .8rem;
+  cursor: pointer;
+  transition: background-color 650ms;
+}
+input[type="submit"]:hover{
+  color:#22le3f;
+  background-color: #ffe838;
+}
+
+.foot{
+background-color: black;
+
+}
+.publish-back{
+  color: white;
+  font-size: .8rem;
+  text-align: center;
+
+}
+.btn{
+  height: 3rem;
+  width: 5rem;
+
+}
+.btn:hover{
+  background-color: pink;
+}
+.publish-home:hover{
+  background-color: pink;
+}
+.bttn{
+  padding: 3rem;
+
+}
+.publish-top{
+
+}
+@media screen and(max-width:800px){
+  body{
+    background: url("images/15.jpg") no-repeat Center fixed;
+    background-size: cover;
+  }
+  .landing-text h1{
+font-size: 3rem;
+}
+  .landing-text h6{
+font-size: 1rem;
+  }
+  .nav-list{
+    flex-direction: column;
+  }
+  li{
+    margin:2rem 0;
+  }
+  .nav-link{
+    font-size: 4.5rem;
+  }
+  .about-heading{
+font-size: 8rem;
+
+  }
+  .section-heading h1{
+    font-size: 3rem;
+  }
+  .about-details .nav-list{
+    flex-direction: initial;
+  }
+  .about-details li{
+    margin: 0 2rem;
+  }
+  .timeline ul{
+    margin: 0 0 0 auto;
+  }
+  .timeline .date::before{
+    left:-20rem;
+  }
+  .timeline .date::after{
+    left:-5.9rem;
+  }
+
+}
+@media scree and(max-width:600px):
+{
+  .landing-text h1{
+    font-size:2rem;
+  }
+  .landing-text h6{
+    font-size:1rem;
+  }
+  .nav-link{
+    font-size: 3.5rem;
+  }
+  .about-container{
+    flex-direction: column;
+  }
+  .profile-img{
+    margin: 0 0 7rem 0;
+  }
+  .portfolio-item{
+    flex-direction: column;
+  }
+  .portfolio-img{
+    margin: 0 0 2rem 0;
+  }
+  .portfolio-description{
+    margin: 0;
+    order:2;
+  }
+  .timeline ul{
+    font-size: 1.6rem;
+  }
+  .timeline .date::before{
+    font-size: 1.4rem;
+  }
+  font{
+    width: 100%;
+  }
+
+
+}
