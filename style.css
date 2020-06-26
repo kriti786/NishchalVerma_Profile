@@ -110,7 +110,7 @@ li{
 z-index: 1;
 }
 .landing-text h1{
-  font-size: 4rem;
+  font-size: 2rem;
   font-family:'Trattatello', fantasy;
   background:linear-gradient(to top,#ffe838,#fd57bf);
   -webkit-background-clip:text;
